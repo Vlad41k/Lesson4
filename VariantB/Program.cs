@@ -54,7 +54,7 @@ namespace VariantB
                 decimal AX = (decimal)Math.Sqrt(Math.Pow(PointA.X - item.CoordX, 2) + Math.Pow(PointA.Y - item.CoordY, 2));
                 decimal BX = (decimal)Math.Sqrt(Math.Pow(PointB.X - item.CoordX, 2) + Math.Pow(PointB.Y - item.CoordY, 2));
                 if (AX + BX == Distance)
-                    Console.WriteLine($"{item} ");
+                    Console.WriteLine($"Точка {item} лежит на прямой AB");
             }
         }
     }   
